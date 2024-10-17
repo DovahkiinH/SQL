@@ -1,3 +1,4 @@
+-- Active: 1729172264062@@127.0.0.1@3306@hotel
 --1.
 SELECT hot_nom,hot_ville
 FROM hotel

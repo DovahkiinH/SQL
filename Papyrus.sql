@@ -3,10 +3,12 @@
 --1.
 SELECT *
 FROM entcom
-WHERE numfou = '9120'
+WHERE numfou = '9120';
 
 --2.
-SELECT numfou
+SELECT fournis.numfou
 FROM fournis
-WHERE 
+JOIN entcom ON fournis.numfou = entcom.numfou; 
+
+--3
 
